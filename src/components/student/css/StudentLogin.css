@@ -1,7 +1,65 @@
 .login-container {
-    border: 2px solid red;
-    height: 70vh;
-    width: 70vw;
+    border-radius: 20px;
+    height: 78vh;
+    width: 65vw;
+    display: flex;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.login-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.login-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.login-right a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.login-right input {
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 35px;
+    background: #ffffffc8;
+    width: 80%;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 17px;
+}
+
+.login-right button {
+    outline: none;
+    border: 1px solid #000000c8;
+    background: #ffffffc8;
+    color: #000000c8;
+    border-radius: 35px;
+    width: 30%;
+    font-size: 16px;
+    margin-right: 47px;
+    padding: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+.login-right button:hover {
+    border: 1px solid #ffffffc8;
+    color: #ffffffc8;
+    background: #000000c8;
 }
