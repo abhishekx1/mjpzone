@@ -1,14 +1,15 @@
 import React from 'react';
 import "./css/StudentLogin.css";
-import Logo from 'D:/MCA Major Project/mjpzone/src/images/loginImage/mjp-logo.png';
+import Logo from '../loginImage/mjpru-logo.png';
 
 function StudentsLogin() {
     return (
         <>
             <div className='login-container'>
                 <div className='login-left'>
-                    <h1>MJPZONE</h1>
-                    <img src={Logo} alt="logo" />
+                    <a href="/" className='title'>
+                        <h1><img src={Logo} alt="logo" /> MJPZONE</h1>
+                    </a>
                 </div>
                 <div className='login-right'>
                     <h1>Login <span>Student/Parent</span></h1>
@@ -20,10 +21,10 @@ function StudentsLogin() {
                         </div>
                         <div>
                             <label htmlFor="dob">DATE OF BIRTH:</label>
-                            <input type="datetime" name="dob" id="dob" placeholder='DD-MM-YYYY' />
+                            <input type="date" name="dob" id="dob" placeholder='dd-mm-yyyy' />
                         </div>
                         <div>
-                            <button type="submit" class="submit">Login</button>
+                            <button type="submit" className="submit">Login</button>
                         </div>
                     </form>
                 </div>

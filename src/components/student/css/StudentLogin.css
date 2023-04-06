@@ -3,7 +3,8 @@
     height: 78vh;
     width: 65vw;
     display: flex;
-    background: rgba( 255, 255, 255, 0.4 );
+    /* background: rgba( 255, 255, 255, 0.4 ); */
+    background: rgba(227, 246, 245, 0.4);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -11,12 +12,33 @@
 }
 
 .login-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
     height: 100%;
     width: 50%;
+    background-color: rgba(13, 12, 37, 0.929);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.title {
+    display: inline-block;
+    padding: 5px;
+    background: rgba(227, 246, 245, 0.8);
+    color: rgba(13, 12, 37, 0.929);
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.title img{
+    height: 6.3vh;
+    width: 3.2vw;
+}
+
+.title h1{
+    font-size: 3em;
 }
 
 .login-right {
@@ -46,7 +68,7 @@
 
 .login-right button {
     outline: none;
-    border: 1px solid #000000c8;
+    border: 1px solid rgba(13, 12, 37, 0.929);
     background: #ffffffc8;
     color: #000000c8;
     border-radius: 35px;
@@ -61,5 +83,5 @@
 .login-right button:hover {
     border: 1px solid #ffffffc8;
     color: #ffffffc8;
-    background: #000000c8;
+    background: rgba(13, 12, 37, 0.929);
 }
