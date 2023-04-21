@@ -15,6 +15,7 @@
     width: 65vw;
     display: flex;
     background: rgba(227, 246, 245, 0.4);
+    /* background: rgb(255, 121, 38, 0.4); */
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -33,6 +34,7 @@
     display: inline-block;
     padding: 5px;
     background: rgba(227, 246, 245, 0.8);
+    /* background: rgba(255, 121, 38, 0.8); */
     color: rgba(13, 12, 37, 0.929);
     margin-top: 30px;
     text-decoration: none;

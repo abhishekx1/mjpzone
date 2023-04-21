@@ -1,11 +1,41 @@
-import React from 'react'; 
+import React from 'react';
+import "./css/FacultyLogin.css";
+import Logo from '../student/loginImage/mjpru-logo.png';
 
-function FacultyLogin() {
+function StudentsLogin() {
     return (
         <>
-            <p>Faculty Login Components</p>
+            <div className="login-frame">
+                <div className='login-container'>
+                    <div className='login-left'>
+                        <a href="/" className='title'>
+                            <h1><img src={Logo} alt="logo" /> MJPZONE</h1>
+                        </a>
+                    </div>
+                    <div className='login-right'>
+                        <h1>Login <span>(Admin/Faculty)</span></h1>
+                        <a href="/">Click here for student login</a>
+                        <form action="submit">
+                            <div>
+                                <label htmlFor="username">Username</label>
+                                <input type="text" name="username" id="username" placeholder="ENROLLMENT / ROLL NO" />
+                            </div>
+                            <div>
+                                <label htmlFor="dob">Department</label>
+                                <select name="department" id="department">
+                                    <option value="csit">Department of CSIT</option>
+                                    <option value="pharmacy">Department of Pharmacy</option>
+                                </select>
+                            </div>
+                            <div>
+                                <button type="submit" className="submit">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </>
     );
 };
 
-export default FacultyLogin;
+export default StudentsLogin;
