@@ -12,7 +12,7 @@ function StudentsLogin() {
                     </a>
                 </div>
                 <div className='login-right'>
-                    <h1>Login <span>Student/Parent</span></h1>
+                    <h1>Login <span>(Student/Parent)</span></h1>
                     <a href="/">Click here for faculty login</a>
                     <form action="submit">
                         <div>
