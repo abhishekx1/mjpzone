@@ -1,6 +1,7 @@
 import React from 'react';
 import "./css/StudentLogin.css";
 import Logo from './loginImage/mjpru-logo.png';
+import { Link } from 'react-router-dom';
 
 function StudentsLogin() {
     return (
@@ -8,13 +9,13 @@ function StudentsLogin() {
             <div className="login-frame">
                 <div className='login-container'>
                     <div className='login-left'>
-                        <a href="/" className='title'>
+                        <Link to="/" className='title'>
                             <h1><img src={Logo} alt="logo" /> MJPZONE</h1>
-                        </a>
+                        </Link>
                     </div>
                     <div className='login-right'>
                         <h1>Login <span>(Student/Parent)</span></h1>
-                        <a href="/">Click here for faculty login</a>
+                        <Link to="/faculty">Click here for faculty login</Link>
                         <form action="submit">
                             <div>
                                 <label htmlFor="username">ENROLLMENT/ROLL NO:</label>
