@@ -9,20 +9,19 @@
 
 .title {
     display: inline-block;
-    padding: 5px;
+    padding: 10.7px;
     /* background: #FF7926; */
     background: rgba(255, 132, 0, 0.8);
-    color: rgba(13, 12, 37, 0.929);
-    height: 8vh;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .title img{
-    height: 5.5vh;
-    width: 2.5vw;
+    height: 5.1vh;
+    width: 2.3vw;
 }
 
 .title h1{
-    font-size: 2.7em;
+    font-size: 2.4em;
 }
 
 .nav-link {
