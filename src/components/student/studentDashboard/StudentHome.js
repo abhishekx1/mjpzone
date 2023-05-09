@@ -6,6 +6,7 @@ import FacultyPage from "./studentComponents/FacultyPage";
 // import EventNotice from "./studentComponents/EventNotice";
 // import EventRegistration from "./studentComponents/EventRegistration";
 // import StudentMain from "./studentComponents/StudentMain";
+import Schedule from "./studentComponents/Schedule";
 
 
 
@@ -14,9 +15,10 @@ function StudentHome() {
         <div className="dashboard">
             <StudentNavbar />
              {/* <StudentMain /> */}
-             <FacultyPage/> 
+             {/* <FacultyPage/>  */}
              {/* <EventNotice/> */}
             {/* <EventRegistration />  */}
+            <Schedule/>
 
            
         </div>
