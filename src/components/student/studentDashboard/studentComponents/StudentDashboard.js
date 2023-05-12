@@ -13,6 +13,11 @@ function StudentDashboard() {
                 <div className="dashboard-attendance">
                     <h2>My Attendance</h2>
                     <div className="attendance-container">
+                        <div className="attendance-subject-head attendance-subject">
+                            <p className="subject-code-head"><b>Subject Code</b></p>
+                            <p className="subject-name-head"><b>Subject Name</b></p>
+                            <p className="subject-percentange-head"><b>Attendance</b></p>
+                        </div>
                         <div className="attendance-subject">
                             <p className="subject-code"><b>MCA 101</b></p>
                             <p className="subject-name">Programming in C</p>
@@ -41,7 +46,7 @@ function StudentDashboard() {
                     </div>
                 </div>
                 <div className="events">
-                <h2>Upcoming Events</h2>
+                    <h2>Upcoming Events</h2>
                     <div className="attendance-container">
                         <div className="attendance-subject">
                             <p className="subject-code"><b>MCA 101</b></p>

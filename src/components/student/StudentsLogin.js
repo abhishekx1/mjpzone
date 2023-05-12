@@ -28,6 +28,9 @@ function StudentsLogin() {
                             <div>
                                 <button type="submit" className="submit">Login</button>
                             </div>
+                            <div className='register-container'>
+                                <Link to="/student-registration">Click here to Register</Link>
+                            </div>
                         </form>
                     </div>
                 </div>

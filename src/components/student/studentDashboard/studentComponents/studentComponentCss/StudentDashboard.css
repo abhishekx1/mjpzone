@@ -27,8 +27,19 @@
     font-size: 1.2rem;
 }
 
+.subject-code-head {
+    width: 6.953vw;
+    border-right: 1px solid;
+    padding: 15px 5px 15px 5px !important;
+}
+
+.subject-name-head {
+    width: 19.99vw;
+    border-right: 1px solid;
+}
+
 .attendance-subject p{
-    padding: 20px;
+    padding: 15px;
 }
 
 .subject-code {
