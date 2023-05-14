@@ -11,9 +11,9 @@ const Schedule = () => {
       { name: 'Computer Network', Time :' 01.15pm - 2.00pm', description: 'Vinay Maurya' }
     ]},
     { id: 2, name: 'Tuesday', faculty: [
-        { name: 'Java', Time :' 01.15pm - 2.00pm', description: 'Vinay Maurya' },
-        { name: 'Web Tech', Time :' 01.15pm - 2.00pm', description: 'Vinay Maurya'},
-        { name: 'Computer Network', Time :' 01.15pm - 2.00pm', description: 'Vinay Maurya' }
+        { name: 'Javas', Time :' 01.15pm - 2.00pm', description: 'Vinay Maurya' },
+        { name: 'Web Techs', Time :' 01.15pm - 2.00pm', description: 'Vinay Maurya'},
+        { name: 'Computer Networks', Time :' 01.15pm - 2.00pm', description: 'Vinay Maurya' }
       ]},
     { id: 3, name: 'Wednusday', faculty: [
         { name: 'Java', Time :' 01.15pm - 2.00pm', description: 'Vinay Maurya' },

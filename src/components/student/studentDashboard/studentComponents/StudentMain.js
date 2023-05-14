@@ -1,6 +1,7 @@
 import React from "react";
 import "./studentComponentCss/StudentMain.css";
 import StudentDashboard from "./StudentDashboard";
+import Schedule from "./Schedule";
 
 function StudentMain() {
     return (
@@ -14,6 +15,7 @@ function StudentMain() {
                 </div>
             </nav>
             <StudentDashboard />
+            <Schedule />
         </div>
     );
 };
