@@ -27,7 +27,6 @@
     font-size: 1.2rem;
 }
 
-<<<<<<< HEAD
 .subject-code-head {
     width: 6.953vw;
     border-right: 1px solid;
@@ -41,10 +40,6 @@
 
 .attendance-subject p{
     padding: 15px;
-=======
-.attendance-subject p{
-    padding: 20px;
->>>>>>> d77dda31fd6826c096e2d12af1cd6c10ae50f9e9
 }
 
 .subject-code {

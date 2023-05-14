@@ -19,7 +19,7 @@ function StudentHome() {
             <a href="/" className="attendance nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faClipboardCheck} /> Attendance
             </a>
-            <a href="/" className="timeTable nav-link">
+            <a href="schedule" className="timeTable nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faCalendarDays} /> Time Table
             </a>
             <a href="/" className="courseDetail nav-link">
@@ -28,17 +28,17 @@ function StudentHome() {
             <a href="/" className="results nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faClipboard} /> Semester Results
             </a>
-            <a href="/FacultyPage.js" className="faculty nav-link">
+            <a href="/faculty-page" className="faculty nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faUsers} /> My Faculty
             </a>
-            <a href="/" className="event nav-link">
+            <a href="event-notice" className="event nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faCalendarPlus} /> Events
                 <FontAwesomeIcon className="fontawesome" icon={faAngleDown} />
             </a>
-            <a href="/" className="sub-event nav-link">
+            <a href="event-notice" className="sub-event nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faAngleRight} /> Upcoming Event
             </a>
-            <a href="/" className="sub-event nav-link register-event ">
+            <a href="event-registration" className="sub-event nav-link register-event ">
                 <FontAwesomeIcon className="fontawesome" icon={faAngleRight} /> Register Event
             </a>
         </nav>
