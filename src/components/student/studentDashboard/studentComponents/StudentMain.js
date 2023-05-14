@@ -6,6 +6,9 @@ import FacultyPage from "./FacultyPage";
 import EventNotice from "./EventNotice";
 import EventRegistration from "./EventRegistration";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SemesterResults from "./SemesterResults";
+import CourseDetails from "./CourseDetails";
+import StudentAttendance from "./StudentAttendance";
 
 function StudentMain() {
     return (
@@ -25,6 +28,9 @@ function StudentMain() {
                     <Route path='/faculty-page' element={<FacultyPage />} />
                     <Route path='/event-notice' element={<EventNotice />} />
                     <Route path='/event-registration' element={<EventRegistration />} />
+                    <Route path='/course-details' element={<CourseDetails />} />
+                    <Route path='/semester-results' element={<SemesterResults />} />
+                    <Route path='/attendance' element={<StudentAttendance />} />
                 </Routes>
             </BrowserRouter>
         </div>

@@ -16,16 +16,16 @@ function StudentHome() {
             <a href="/" className="profile nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faAddressCard} /> Profile
             </a>
-            <a href="/" className="attendance nav-link">
+            <a href="attendance" className="attendance nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faClipboardCheck} /> Attendance
             </a>
             <a href="schedule" className="timeTable nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faCalendarDays} /> Time Table
             </a>
-            <a href="/" className="courseDetail nav-link">
+            <a href="course-details" className="courseDetail nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faList} /> Course Details
             </a>
-            <a href="/" className="results nav-link">
+            <a href="semester-results" className="results nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faClipboard} /> Semester Results
             </a>
             <a href="/faculty-page" className="faculty nav-link">
