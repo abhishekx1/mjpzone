@@ -1,6 +1,4 @@
 import * as React from "react";
-// import StudentMain from "./StudentMain";
-// import "./studentComponentCss/StudentMain.css";
 import "./studentComponentCss/CourseDetail.css";
 
 function createData(CourseCode, CourseName, Type, Syllabus) {
@@ -18,14 +16,6 @@ const rows = [
 function CourseDetails() {
     return (
         <div className="main">
-            {/* <nav className="mainNavbar">
-                <h1>MJP Rohilkhand University, Bareilly</h1>
-                <div className="profile-container">
-                    eslint-disable-next-line
-                    <img src="/" alt="student picture" />
-                    <h1>Abhishek Srivastav</h1>
-                </div>
-            </nav> */}
             <h1 className="mycourse">My Courses</h1>
             <div>
                 <div align="center" className="filter">

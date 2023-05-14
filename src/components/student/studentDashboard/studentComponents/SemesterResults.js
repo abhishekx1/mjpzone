@@ -16,14 +16,6 @@ const rows = [
 function SemesterResults() {
     return (
         <div className="main">
-            {/* <nav className="mainNavbar">
-                <h1>MJP Rohilkhand University, Bareilly</h1>
-                <div className="profile-container">
-                    eslint-disable-next-line
-                    <img src="/" alt="student picture" />
-                    <h1>Abhishek Srivastav</h1>
-                </div>
-            </nav> */}
             <h1 className="mycourse">Examination</h1>
             <div>
                 <div align="center" className="filter">
