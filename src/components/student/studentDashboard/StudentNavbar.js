@@ -28,7 +28,11 @@ function StudentHome() {
             <a href="/" className="results nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faClipboard} /> Semester Results
             </a>
+<<<<<<< HEAD
             <a href="/" className="faculty nav-link">
+=======
+            <a href="/FacultyPage.js" className="faculty nav-link">
+>>>>>>> d77dda31fd6826c096e2d12af1cd6c10ae50f9e9
                 <FontAwesomeIcon className="fontawesome" icon={faUsers} /> My Faculty
             </a>
             <a href="/" className="event nav-link">
