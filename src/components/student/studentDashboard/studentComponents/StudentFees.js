@@ -1,10 +1,26 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import '../studentComponents/studentComponentCss/StudentFees.css'
+
+
 function StudentFees() {
+    const[allValues, setValues] = useState({tutionFees:45150, totalFees:65820,category:'MCA'})
+    function updateBtech(){
+        setValues({tutionFees: 75150, totalFees:95820,category:'Btech'})
+    }
+    function updateMCA(){
+        setValues({tutionFees: 45150, totalFees:65820,category:'MCA'})
+    }
   return (
     <>   
     <div className='head' >Fee Structure </div>
-    <div className='sub-head' > <h2>MCA</h2> </div>
+    
+        <div className="btn-container">
+            <button className='filter-btn' onClick={updateMCA}>MCA</button> 
+            <button className='filter-btn' onClick={updateBtech}>Btech</button> 
+        </div>
+        <div className="sub-head">
+       <h2>    {allValues.category} Fees Structure </h2> </div>
+        
     <table className='table' >
       <tr>
             <th>Types of Fees </th>
@@ -12,7 +28,7 @@ function StudentFees() {
       </tr>
       <tr>
             <td>Tution Fee/ Year</td>
-            <td>45150</td>
+            <td>{allValues.tutionFees}</td>
         </tr>
         <tr>
             <td>Caution Money(Refundable)</td>
@@ -28,10 +44,10 @@ function StudentFees() {
         </tr>
         <tr>
             <td>Total Fee </td>
-            <td>65820</td>
+            <td>{allValues.totalFees}</td>
         </tr>
     </table>
-    <div className='sub-head' > <h2>Btech</h2> </div>
+    {/* <div className='sub-head' > <h2>Btech</h2> </div>
     <table className='table' >
       <tr>
             <th>Types of Fees </th>
@@ -58,9 +74,10 @@ function StudentFees() {
             <td>95,820</td>
         </tr>
     </table>
-    <div>  </div>
+    <div>  </div> */}
     </>
   )
+    
 }
 
 export default StudentFees

@@ -1,3 +1,13 @@
+:root{
+    --radius: 0.25rem;
+    --transition: all 0.3s linear;
+    --clr-white: #fff;
+    --clr-gold: #c59d5f;
+  
+}
+
+
+
 .head{
     text-align: center;
     font-size: 3rem;
@@ -6,7 +16,34 @@
 
 .sub-head{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     cursor: pointer;
-    background-color: azure;
+    background-color: white;
 }
+
+.btn-container {
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+.filter-btn {
+    background: transparent;
+    border-color: transparent;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+    letter-spacing: 1px;
+    padding: 0.375rem 0.75rem;
+    color: black;
+    background-color: bisque;
+    cursor: pointer;
+    transition: var(--transition);
+    border-radius: var(--radius);
+  }
+
+  .filter-btn:hover {
+    background: var(--clr-gold);
+    color: var(--clr-white);
+  }
