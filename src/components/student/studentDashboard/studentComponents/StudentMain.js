@@ -3,6 +3,7 @@ import "./studentComponentCss/StudentMain.css";
 // import StudentDashboard from "./StudentDashboard";
 import StudentAttendance from "./StudentAttendance";
 import StudentFees from "./StudentFees";
+import Main from "./FAQ/MainFAQ";
 function StudentMain() {
     return (
         <div className="main">
@@ -16,7 +17,7 @@ function StudentMain() {
             </nav>
             {/* <StudentDashboard /> */}
             {/* <StudentAttendance /> */}
-             <StudentFees />
+             <Main />
         </div>
     );
 };
