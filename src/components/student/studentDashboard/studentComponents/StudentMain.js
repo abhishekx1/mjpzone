@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SemesterResults from "./SemesterResults";
 import CourseDetails from "./CourseDetails";
 import StudentAttendance from "./StudentAttendance";
+import StudentFee from "./StudentFee";
 
 function StudentMain() {
     return (
@@ -31,6 +32,7 @@ function StudentMain() {
                     <Route path='/course-details' element={<CourseDetails />} />
                     <Route path='/semester-results' element={<SemesterResults />} />
                     <Route path='/attendance' element={<StudentAttendance />} />
+                    <Route path='/student-fee' element={<StudentFee />} />
                 </Routes>
             </BrowserRouter>
         </div>

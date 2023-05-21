@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../loginImage/mjpru-logo.png";
 import "../css/StudentNavbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouseChimney, faAddressCard, faClipboardCheck, faCalendarDays, faList, faClipboard, faUsers, faAngleDown, faCalendarPlus, faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { faHouseChimney, faAddressCard, faClipboardCheck, faCalendarDays, faList, faClipboard, faUsers, faAngleDown, faCalendarPlus, faAngleRight, faIndianRupee } from '@fortawesome/free-solid-svg-icons';
 
 function StudentHome() {
     return (
@@ -24,6 +24,9 @@ function StudentHome() {
             </a>
             <a href="course-details" className="courseDetail nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faList} /> Course Details
+            </a>
+            <a href="student-fee" className="courseDetail nav-link">
+                <FontAwesomeIcon className="fontawesome" icon={faIndianRupee} /> Fee Structure
             </a>
             <a href="semester-results" className="results nav-link">
                 <FontAwesomeIcon className="fontawesome" icon={faClipboard} /> Semester Results
